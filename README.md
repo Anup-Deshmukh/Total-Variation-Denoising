@@ -1,4 +1,4 @@
-* This project implements following Gradient descent algorithms for the problem of total variation image denoising:
+This project implements following Gradient descent algorithms for the problem of total variation image denoising:
  * Simple line-search
  * Armijo line-search
  * Accelerated gradient descent (using Lipschitz constant)
