@@ -1,8 +1,8 @@
+* This project implements following Gradient descent algorithms for the problem of total variation image denoising:
+ * Simple line-search
+ * Armijo line-search
+ * Accelerated gradient descent (using Lipschitz constant)
+ * Practical accelerated gradient descent
+ 
 This project is done using a Jupyter notebook so that the results can be visualized conveniently. Please refer to the notebook itself for all the details and step by step guidance of the implementation.
 
-* TV-denoising.ipynb: The jupyter notebook file
-	* Line 5: Implementing the gradient descent with armijo line search using pseudo huber function to smooth the problem. 
-	* Line 7: Implementing gradient descent with simple line-search. I again use the pseudo-Huber function to smooth the problem. 
-	* Line 9: Computing a Lipschitz constant
-	* Line 10: Implementing accelerated gradient descent with Lipschitz constant 
-	* Line 12: A Fast Iterative Shrinkage-Thresholding Algorithm for Linear Inverse Problems
